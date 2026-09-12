@@ -1,0 +1,6 @@
+{
+  "name": "Nocturne Sanctuary",
+  "description": "Ultra-exclusive dark sky desert sanctuary nestled deep within Utah’s ancient canyonlands, featuring research-grade observatories, luxury geodesic villas, and celestial expeditions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

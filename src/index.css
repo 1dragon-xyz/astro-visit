@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Bodoni Moda", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  --color-surface: #0f131c;
+  --color-surface-dim: #0f131c;
+  --color-surface-bright: #353943;
+  --color-surface-container-lowest: #0a0e17;
+  --color-surface-container-low: #181b25;
+  --color-surface-container: #1c2029;
+  --color-surface-container-high: #262a34;
+  --color-surface-container-highest: #31353f;
+
+  --color-on-surface: #dfe2ef;
+  --color-on-surface-variant: #d0c5b2;
+  --color-inverse-surface: #dfe2ef;
+  --color-inverse-on-surface: #2c303a;
+
+  --color-outline: #99907e;
+  --color-outline-variant: #4d4637;
+
+  --color-primary: #ffeecb;
+  --color-on-primary: #3d2e00;
+  --color-primary-container: #f4d06f;
+  --color-on-primary-container: #715800;
+  --color-primary-fixed: #ffe08f;
+  --color-primary-fixed-dim: #e6c363;
+
+  --color-secondary: #5dd9d9;
+  --color-on-secondary: #003737;
+  --color-secondary-container: #01a4a4;
+  --color-secondary-fixed: #7cf5f5;
+
+  --color-tertiary: #f4ecff;
+  --color-on-tertiary: #381385;
+  --color-tertiary-container: #daccff;
+  --color-on-tertiary-container: #6347b2;
+  --color-tertiary-fixed: #e8ddff;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    font-family: var(--font-sans);
+  }
+  body {
+    background-color: #0f131c;
+    color: #dfe2ef;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+.font-sans-body {
+  font-family: var(--font-sans);
+}
+
+.font-mono-data {
+  font-family: var(--font-mono);
+}
